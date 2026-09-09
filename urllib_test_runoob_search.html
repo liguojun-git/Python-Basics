@@ -1,0 +1,1363 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Python 教程 | 搜索结果  | 菜鸟教程</title>
+<script>
+window.RUNOOB_CONFIG = {
+  darkCssUrl: "https://www.runoob.com/wp-content/themes/runoob/dark-mode.css?v=1.125"
+};
+
+(function () {
+  var t = localStorage.getItem('runoob-theme') || 'light';
+
+  document.documentElement.setAttribute('data-theme', t);
+
+  if (t === 'dark') {
+    loadDarkCss();
+  }
+
+  function loadDarkCss() {
+    if (document.getElementById('dark-theme-css')) return;
+
+    var link = document.createElement('link');
+    link.id = 'dark-theme-css';
+    link.rel = 'stylesheet';
+    link.href = window.RUNOOB_CONFIG.darkCssUrl;
+
+    document.head.appendChild(link);
+  }
+})();
+</script>
+
+  
+
+  <!-- 图标 -->
+  <link rel="shortcut icon" href="https://static.char123.com/images/favicon.ico">
+  <link rel="apple-touch-icon" href="https://static.char123.com/images/icon/mobile-icon.png">
+  <meta name="apple-mobile-web-app-title" content="菜鸟教程">
+
+  <!-- 样式 -->
+  <link rel="stylesheet" href="https://www.runoob.com/wp-content/themes/runoob/style.css?v=1.125" media="all">
+  <link rel="stylesheet" href="https://static.jyshare.com/assets/font-awesome-4.7.0/css/font-awesome.min.css" media="all">
+
+  <!-- jQuery（IE 条件注释已无意义，现代浏览器直接加载） -->
+  <script src="https://static.char123.com/assets/libs/jquery.min.js"></script>
+
+  <!-- WordPress head 钩子，必须紧贴 </head> 前 -->
+  <meta name='robots' content='noindex, follow, max-image-preview:large' />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+
+
+<meta name="keywords" content="Python 教程">
+<meta name="description" content="菜鸟教程: Python 教程 的搜索結果..">
+</head>
+<body>
+
+<!-- 头部 -->
+<div class="container logo-search">
+
+  <div class="col search row-search-mobile">
+    <form action="/">
+      <input class="placeholder" placeholder="搜索……" name="s" autocomplete="off">
+    </form>
+  </div>
+
+  <div class="row">
+    <div class="col logo">
+      <h1><a href="/">菜鸟教程 -- 学的不仅是技术，更是梦想！</a></h1>
+    </div>
+
+    
+    <div class="col search search-desktop last">
+      <div class="search-input">
+        <form action="/" target="_blank">
+          <input class="placeholder" id="s" name="s" placeholder="搜索……" autocomplete="off" style="height:44px;">
+        </form>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- 导航栏 -->
+<style>
+/* 主题切换按钮 */
+/* ===== 主题变量（核心）===== */
+:root {
+  --theme-bg: #ffffff;
+  --theme-border: #e5e7eb;
+  --theme-icon: #333;
+  --theme-hover: #f3f4f6;
+}
+
+.dark {
+  --theme-bg: #1f2937;
+  --theme-border: #374151;
+  --theme-icon: #e5e7eb;
+  --theme-hover: #374151;
+}
+
+/* ===== 按钮容器 ===== */
+.nav-theme-toggle {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ===== 按钮本体 ===== */
+.nav-theme-toggle button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 28px;
+  height: 28px;
+
+  border-radius: 6px;
+  border: 1px solid var(--theme-border);
+
+  background: var(--theme-bg);
+  color: var(--theme-icon);
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* ===== 图标大小 ===== */
+.nav-theme-toggle i {
+  font-size: 14px;
+}
+
+/* ===== hover 效果 ===== */
+.nav-theme-toggle button:hover {
+  background: var(--theme-hover);
+  transform: translateY(-1px);
+}
+
+/* ===== 点击反馈 ===== */
+.nav-theme-toggle button:active {
+  transform: scale(0.95);
+}
+
+/* ===== 当前激活态（可选）===== */
+.nav-theme-toggle button.active {
+  border-color: #3b82f6;
+  color: #3b82f6;
+}
+</style>
+<!-- 导航栏 -->
+<nav class="container navigation" aria-label="主导航">
+  <div class="row">
+    <div class="col nav">
+
+      <!-- PC 导航 -->
+      <ul class="pc-nav" id="runoob-detail-nav">
+        <li><a href="//www.runoob.com/">首页</a></li>
+        <li><a href="/html/html-tutorial.html">HTML</a></li>
+        <li><a href="/js/js-tutorial.html">JavaScript</a></li>
+        <li><a href="/css/css-tutorial.html">CSS</a></li>
+        <li><a href="javascript:void(0);" data-id="vue">Vue</a></li>
+        <li><a href="/react/react-tutorial.html">React</a></li>
+        <li><a href="/python3/python3-tutorial.html">Python3</a></li>
+        <li><a href="/java/java-tutorial.html">Java</a></li>
+        <li><a href="/cprogramming/c-tutorial.html">C</a></li>
+        <li><a href="/cplusplus/cpp-tutorial.html">C++</a></li>
+        <li><a href="/csharp/csharp-tutorial.html">C#</a></li>
+        <li><a href="javascript:void(0);" data-id="aiNav">AI</a></li>
+        <li><a href="/go/go-tutorial.html">Go</a></li>
+        <li><a href="/sql/sql-tutorial.html">SQL</a></li>
+        <li><a href="/linux/linux-tutorial.html">Linux</a></li>
+        <li><a href="/vscode/vscode-tutorial.html">VS Code</a></li>
+        <li><a href="javascript:void(0);" data-id="bootstrap">Bootstrap</a></li>
+        <li><a href="/git/git-tutorial.html">Git</a></li>
+        <li><a href="/browser-history">本地书签</a></li>
+
+        <!-- 主题切换按钮，固定在最右侧 -->
+        <li class="nav-theme-toggle">
+          <button id="moon" title="切换暗色模式" aria-label="切换暗色模式" style="display:none">
+            <i class="fa fa-moon-o"></i>
+          </button>
+          <button id="sun" title="切换亮色模式" aria-label="切换亮色模式" style="display:none">
+            <i class="fa fa-sun-o"></i>
+          </button>
+        </li>
+      </ul>
+
+      <!-- 移动端导航 -->
+      <ul class="mobile-nav">
+        <li><a href="//www.runoob.com/">首页</a></li>
+        <li><a href="/html/html-tutorial.html">HTML</a></li>
+        <li><a href="/css/css-tutorial.html">CSS</a></li>
+        <li><a href="/js/js-tutorial.html">JS</a></li>
+        <li><a href="/browser-history">本地书签</a></li>
+        <li><a href="javascript:void(0)" class="search-reveal">搜索</a></li>
+
+        <!-- 移动端主题切换 -->
+        <li class="nav-theme-toggle">
+          <button id="moon-mobile" title="切换暗色模式" aria-label="切换暗色模式" style="display:none">
+            <i class="fa fa-moon-o"></i>
+          </button>
+          <button id="sun-mobile" title="切换亮色模式" aria-label="切换亮色模式" style="display:none">
+            <i class="fa fa-sun-o"></i>
+          </button>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<!-- 二级导航 -->
+<div class="container sub-navigation sub-navigation-articles" style="display:none">
+  <div class="row">
+    <div class="col nav-sub">
+
+      <ul id="vue">
+        <li class="cat-item"><a href="/vue3/vue3-tutorial.html">Vue3 教程 <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        <li class="cat-item"><a href="/vue/vue-tutorial.html">Vue2 教程 <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+      </ul>
+
+      <ul id="bootstrap">
+        <li class="cat-item"><a href="/bootstrap/bootstrap-tutorial.html">Bootstrap3 <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        <li class="cat-item"><a href="/bootstrap4/bootstrap4-tutorial.html">Bootstrap4 <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        <li class="cat-item"><a href="/bootstrap5/bootstrap5-tutorial.html">Bootstrap5 <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+      </ul>
+
+      <ul id="aiNav">
+        <li class="cat-item"><a href="/ml/ml-tutorial.html">机器学习 <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        <li class="cat-item"><a href="/pytorch/pytorch-tutorial.html">PyTorch <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        <li class="cat-item"><a href="/tensorflow/tensorflow-tutorial.html">TensorFlow <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        <li class="cat-item"><a href="/sklearn/sklearn-tutorial.html">Sklearn <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        <li class="cat-item"><a href="/nlp/nlp-tutorial.html">NLP <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        <li class="cat-item"><a href="/ai-agent/ai-agent-tutorial.html">AI Agent <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        <li class="cat-item"><a href="/ollama/ollama-tutorial.html">Ollama <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+        <li class="cat-item"><a href="/claude-code/coding-plan.html">Coding Plan <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+      </ul>
+
+    </div>
+  </div>
+</div>
+<style>
+/* =====================
+   搜索框区域
+   ===================== */
+em { color: #c00; }
+
+ol {
+	list-style-type: decimal;
+	margin: 20px;
+	padding: 0;
+}
+
+.search-bar-wrap {
+	margin-bottom: 24px;
+	position: relative; /* 让 autocomplete 下拉相对此定位 */
+}
+
+.search-bar-inner {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	background: #fff;
+	border: 1.5px solid #d0d7de;
+	border-radius: 10px;
+	padding: 6px 8px 6px 14px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+	transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+/* =====================
+   自动补全下拉（挂在 body，fixed 定位彻底避免被父级裁剪）
+   ===================== */
+.autocomplete-items {
+	position: fixed;
+	z-index: 99999;
+	background: #fff;
+	border: 1.5px solid #d0d7de;
+	border-radius: 8px;
+	box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+	overflow-y: auto;
+	max-height: 280px;
+}
+
+.autocomplete-items div {
+	padding: 10px 14px;
+	font-size: 14px;
+	color: #333;
+	cursor: pointer;
+	border-bottom: 1px solid #f0f0f0;
+	transition: background 0.15s;
+}
+
+.autocomplete-items div:last-child { border-bottom: none; }
+
+.autocomplete-items div:hover,
+.autocomplete-active {
+	background: #f5f9f2;
+	color: #64854c;
+}
+
+.search-bar-inner:focus-within {
+	border-color: #64854c;
+	box-shadow: 0 2px 16px rgba(100,133,76,0.13);
+}
+
+.search-bar-inner input[type="text"] {
+	flex: 1;
+	border: none;
+	outline: none;
+	font-size: 15px;
+	color: #222;
+	background: transparent;
+	padding: 6px 0;
+	min-width: 0;
+}
+
+.search-bar-inner input[type="text"]::placeholder {
+	color: #aaa;
+}
+
+/* 搜索按钮 */
+.btn-search {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+	padding: 8px 16px;
+	border-radius: 7px;
+	border: none;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 600;
+	white-space: nowrap;
+	transition: all 0.2s;
+	background: #64854c;
+	color: #fff;
+	flex-shrink: 0;
+}
+
+.btn-search:hover {
+	background: #527040;
+	box-shadow: 0 2px 8px rgba(100,133,76,0.3);
+}
+
+.btn-search:active {
+	transform: scale(0.97);
+}
+
+/* AI 按钮 */
+.btn-ai {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+	padding: 8px 14px;
+	border-radius: 7px;
+	border: none;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 600;
+	white-space: nowrap;
+	transition: all 0.25s;
+	background: linear-gradient(135deg, #E55D87 0%, #5FC3E4 100%);
+	color: #fff;
+	flex-shrink: 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.btn-ai::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(135deg, #5FC3E4 0%, #E55D87 100%);
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.btn-ai:hover::before { opacity: 1; }
+
+.btn-ai:active { transform: scale(0.97); }
+
+.btn-ai:disabled {
+	opacity: 0.65;
+	cursor: not-allowed;
+	transform: none;
+}
+
+.btn-ai span,
+.btn-ai i { position: relative; z-index: 1; }
+
+/* AI 加载状态 */
+.btn-ai.loading .ai-btn-icon { display: none; }
+.btn-ai:not(.loading) .ai-btn-spinner { display: none; }
+
+.ai-btn-spinner {
+	width: 14px;
+	height: 14px;
+	border: 2px solid rgba(255,255,255,0.4);
+	border-top-color: #fff;
+	border-radius: 50%;
+	animation: spin 0.7s linear infinite;
+	position: relative;
+	z-index: 1;
+}
+
+@keyframes spin {
+	to { transform: rotate(360deg); }
+}
+
+/* =====================
+   AI 回答容器
+   ===================== */
+.ai-result-card {
+	display: none;
+	margin: 16px;
+	border-radius: 12px;
+	overflow: hidden;
+	border: 1.5px solid transparent;
+	background:
+		linear-gradient(#fafcfd, #fafcfd) padding-box,
+		linear-gradient(135deg, #E55D87, #5FC3E4) border-box;
+	box-shadow: 0 4px 24px rgba(95,195,228,0.1);
+}
+
+.ai-result-header {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 10px 12px 10px 18px;
+	background: linear-gradient(135deg, #E55D87 0%, #5FC3E4 100%);
+	color: #fff;
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 0.03em;
+	user-select: none;
+}
+
+.ai-result-header .ai-header-title {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.ai-result-header i { font-size: 14px; }
+
+/* 头部操作按钮 */
+.ai-header-actions {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	flex-shrink: 0;
+}
+
+.ai-header-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 26px;
+	height: 26px;
+	border-radius: 5px;
+	border: none;
+	background: rgba(255,255,255,0.18);
+	color: #fff;
+	cursor: pointer;
+	font-size: 13px;
+	line-height: 1;
+	transition: background 0.2s, transform 0.2s;
+	padding: 0;
+}
+
+.ai-header-btn:hover {
+	background: rgba(255,255,255,0.35);
+}
+
+.ai-header-btn:active { transform: scale(0.92); }
+
+/* 折叠状态 */
+.ai-result-card.collapsed .ai-result-body { display: none; }
+.ai-result-card.collapsed .btn-collapse i {
+	transform: rotate(-180deg);
+}
+
+.btn-collapse i {
+	transition: transform 0.25s ease;
+	display: inline-block;
+}
+
+.ai-result-body {
+	padding: 18px 20px 14px;
+	font-size: 14px;
+	line-height: 1.75;
+	color: #333;
+}
+
+/* AI 内容排版 */
+.ai-result-body h1,
+.ai-result-body h2,
+.ai-result-body h3 {
+	background: linear-gradient(135deg, #E55D87, #5FC3E4);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	margin: 1.2em 0 0.5em;
+	font-size: 1.1em;
+}
+
+.ai-result-body p {
+	margin-bottom: 0.75em;
+}
+
+.ai-result-body ul,
+.ai-result-body ol {
+	list-style: none;
+	padding-left: 1.2em;
+	margin: 0.5em 0 0.75em;
+}
+
+.ai-result-body li {
+	position: relative;
+	padding-left: 1.2em;
+	margin-bottom: 0.4em;
+}
+
+.ai-result-body li::before {
+	content: '▹';
+	position: absolute;
+	left: 0;
+	color: #E55D87;
+}
+
+.ai-result-body a {
+	color: #0f3460;
+	border-bottom: 1px solid #0f3460;
+	text-decoration: none;
+	transition: color 0.2s, border-color 0.2s;
+}
+
+.ai-result-body a:hover {
+	color: #E55D87;
+	border-bottom-color: #E55D87;
+}
+
+.ai-result-body code {
+	background: #f0f4f8;
+	padding: 1px 5px;
+	border-radius: 4px;
+	font-size: 0.9em;
+}
+
+.ai-result-body pre {
+	background: #f0f4f8;
+	padding: 12px 14px;
+	border-radius: 8px;
+	overflow-x: auto;
+	margin: 0.75em 0;
+}
+
+/* AI 加载动画（容器内） */
+.ai-loading {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 16px 20px;
+	color: #888;
+	font-size: 13px;
+}
+
+.ai-loading-dots span {
+	display: inline-block;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: linear-gradient(135deg, #E55D87, #5FC3E4);
+	margin: 0 2px;
+	animation: dotBounce 1.2s infinite ease-in-out;
+}
+
+.ai-loading-dots span:nth-child(2) { animation-delay: 0.2s; }
+.ai-loading-dots span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes dotBounce {
+	0%, 80%, 100% { transform: scale(0.7); opacity: 0.5; }
+	40% { transform: scale(1.1); opacity: 1; }
+}
+/* ========================================
+   暗色主题：搜索 + AI 区域
+======================================== */
+[data-theme="dark"] {
+
+  em { color: #ff6b6b; }
+
+  /* =====================
+     搜索框
+  ===================== */
+  .search-bar-inner {
+    background: #1d1e20;
+    border: 1.5px solid #2e3033;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+  }
+
+  .search-bar-inner:focus-within {
+    border-color: #6fbf73;
+    box-shadow: 0 2px 16px rgba(111,191,115,0.25);
+  }
+
+  .search-bar-inner input[type="text"] {
+    color: #e6e6e6;
+  }
+
+  .search-bar-inner input[type="text"]::placeholder {
+    color: #777;
+  }
+
+  /* =====================
+     自动补全
+  ===================== */
+  .autocomplete-items {
+    background: #1d1e20;
+    border: 1px solid #2e3033;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+  }
+
+  .autocomplete-items div {
+    color: #ddd;
+    border-bottom: 1px solid #2a2d2f;
+  }
+
+  .autocomplete-items div:hover,
+  .autocomplete-active {
+    background: #2a2d2f;
+    color: #6fbf73;
+  }
+
+  /* =====================
+     按钮
+  ===================== */
+  .btn-search {
+    background: #3a5f3c;
+    color: #fff;
+  }
+
+  .btn-search:hover {
+    background: #4c7a4f;
+    box-shadow: 0 2px 10px rgba(111,191,115,0.3);
+  }
+
+  .btn-ai {
+    background: linear-gradient(135deg, #c94b73 0%, #3aa6c9 100%);
+  }
+
+  .btn-ai::before {
+    background: linear-gradient(135deg, #3aa6c9 0%, #c94b73 100%);
+  }
+
+  /* =====================
+     AI 卡片
+  ===================== */
+  .ai-result-card {
+    background:
+      linear-gradient(#1d1e20, #1d1e20) padding-box,
+      linear-gradient(135deg, #c94b73, #3aa6c9) border-box;
+    box-shadow: 0 6px 28px rgba(0,0,0,0.6);
+  }
+
+  .ai-result-header {
+    background: linear-gradient(135deg, #c94b73 0%, #3aa6c9 100%);
+  }
+
+  .ai-header-btn {
+    background: rgba(255,255,255,0.12);
+  }
+
+  .ai-header-btn:hover {
+    background: rgba(255,255,255,0.25);
+  }
+
+  /* =====================
+     AI 内容区
+  ===================== */
+  .ai-result-body {
+    color: #ddd;
+  }
+
+  .ai-result-body a {
+    color: #7ecfff;
+    border-bottom: 1px solid #7ecfff;
+  }
+
+  .ai-result-body a:hover {
+    color: #ff7aa2;
+    border-bottom-color: #ff7aa2;
+  }
+
+  .ai-result-body code {
+    background: #2a2d2f;
+    color: #e6e6e6;
+  }
+
+  .ai-result-body pre {
+    background: #2a2d2f;
+    color: #ddd;
+  }
+
+  /* =====================
+     loading
+  ===================== */
+  .ai-loading {
+    color: #aaa;
+  }
+
+  .ai-loading-dots span {
+    background: linear-gradient(135deg, #c94b73, #3aa6c9);
+  }
+}
+</style>
+
+<div class="container main">
+	<div class="row">		
+		<div class="col middle-column big-middle-column">
+
+			<!-- ===== 搜索框（集成 AI 按钮） ===== -->
+			<div class="archive-options" style="display:block;">
+				<div class="search-bar-wrap">
+					<form action="/" id="runnob-search-form">
+						<div class="search-bar-inner">
+							<input
+								type="text"
+								id="runnob-search-input"
+								name="s"
+								placeholder="搜索教程、文档..."
+								value="python 教程"
+								autocomplete="off"
+							>
+							<button type="submit" class="btn-search">
+								<i class="fa fa-search"></i>
+								<span>搜索</span>
+							</button>
+							<button type="button" class="btn-ai" id="getAI">
+								<div class="ai-btn-spinner"></div>
+								<i class="fa fa-magic ai-btn-icon" aria-hidden="true"></i>
+								<span>AI 解答</span>
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<!-- ===== /搜索框 ===== -->
+
+			<div class="archive-list">
+
+				<!-- AI 回答区 -->
+				<div class="ai-result-card" id="responseContainer">
+					<div class="ai-result-header">
+						<div class="ai-header-title">
+							<i class="fa fa-magic"></i>
+							AI 智能解答
+						</div>
+						<div class="ai-header-actions">
+							<!-- 折叠/展开 -->
+							<button class="ai-header-btn btn-collapse" id="aiCollapse" title="折叠">
+								<i class="fa fa-chevron-up"></i>
+							</button>
+							<!-- 关闭 -->
+							<button class="ai-header-btn btn-close-ai" id="aiClose" title="关闭">
+								<i class="fa fa-times"></i>
+							</button>
+						</div>
+					</div>
+					<div class="ai-result-body" id="aiResultBody">
+						<div class="ai-loading">
+							<div class="ai-loading-dots"><span></span><span></span><span></span></div>
+							AI 正在思考中...
+						</div>
+					</div>
+				</div>
+
+				<!-- 搜索结果 -->
+														<div class="archive-list-item">
+						<div class="post-intro" style="width: 100%">
+							<h2>
+								<a target="_blank" href="http://www.runoob.com/python/python-tutorial.html" rel="bookmark"
+								   title="&lt;em&gt;Python&lt;/em&gt; 基础&lt;em&gt;教程&lt;/em&gt;"
+								   onclick="push_runoob_search(4008)">
+									<em>Python</em> 基础<em>教程</em>								</a>
+								<i class="fa fa-external-link"></i>
+							</h2>
+							<p>
+								Python 基础教程 Python 是一种解释型、面向对象、动态数据类型的高级程序设计语言。Python 由 Guido van Rossum 于 1989 年底发明，第一个公开发行版发行于 1991 年。像 Perl 语言一样,Python 源代码同样遵循 GP...							</p>
+						</div>
+					</div>
+										<div class="archive-list-item">
+						<div class="post-intro" style="width: 100%">
+							<h2>
+								<a target="_blank" href="http://www.runoob.com/python3/python3-tutorial.html" rel="bookmark"
+								   title="&lt;em&gt;Python&lt;/em&gt;3 &lt;em&gt;教程&lt;/em&gt;"
+								   onclick="push_runoob_search(7279)">
+									<em>Python</em>3 <em>教程</em>								</a>
+								<i class="fa fa-external-link"></i>
+							</h2>
+							<p>
+								Python 3 教程 Python 的 3.0 版本，常被称为 Python 3000，或简称 Py3k。相对于 Python 的早期版本，这是一个较大的升级。为了不带入过多的累赘，Python 3.0 在设计的时候没有考虑向下兼容。Python 介绍及安装教...							</p>
+						</div>
+					</div>
+										<div class="archive-list-item">
+						<div class="post-intro" style="width: 100%">
+							<h2>
+								<a target="_blank" href="http://www.runoob.com/python3/python-urllib.html" rel="bookmark"
+								   title="&lt;em&gt;Python&lt;/em&gt; urllib"
+								   onclick="push_runoob_search(23611)">
+									<em>Python</em> urllib								</a>
+								<i class="fa fa-external-link"></i>
+							</h2>
+							<p>
+								'https://www.runoob.com/?s=' # 菜鸟教程搜索页面 keyword='Python 教程' key_code= urllib.request.quote(keyword)#对请求进行编码 url_all=url+key_code header={ 'User-Agent':'Mozilla/5.0(X11;Fedora;Linux...							</p>
+						</div>
+					</div>
+										<div class="archive-list-item">
+						<div class="post-intro" style="width: 100%">
+							<h2>
+								<a target="_blank" href="http://www.runoob.com/w3cnote/python-ten-minute-introductory-tutorial.html" rel="bookmark"
+								   title="&lt;em&gt;Python&lt;/em&gt;十分钟入门"
+								   onclick="push_runoob_search(11154)">
+									<em>Python</em>十分钟入门								</a>
+								<i class="fa fa-external-link"></i>
+							</h2>
+							<p>
+								简介 Python是一种动态解释型的编程语言。Python可以在Windows、UNIX、MAC等多种操作系统上使用，也可以在Java、.NET开发平台上使用。特点 1 Python使用C语言开发，但是Python不再有C语言中的指针等复杂的...prin...							</p>
+						</div>
+					</div>
+										<div class="archive-list-item">
+						<div class="post-intro" style="width: 100%">
+							<h2>
+								<a target="_blank" href="http://www.runoob.com/python/python-exceptions.html" rel="bookmark"
+								   title="&lt;em&gt;Python&lt;/em&gt; 异常处理"
+								   onclick="push_runoob_search(4532)">
+									<em>Python</em> 异常处理								</a>
+								<i class="fa fa-external-link"></i>
+							</h2>
+							<p>
+								异常处理:本站Python教程会具体介绍。断言(Assertions):本站Python教程会具体介绍。python标准异常 异常名称 描述 BaseException 所有异常的基类 SystemExit解释器请求退出 KeyboardInterrupt 用户中断执行(通常...							</p>
+						</div>
+					</div>
+										<div class="archive-list-item">
+						<div class="post-intro" style="width: 100%">
+							<h2>
+								<a target="_blank" href="http://www.runoob.com/w3cnote/keyword-manual.html" rel="bookmark"
+								   title="菜鸟&lt;em&gt;教程&lt;/em&gt;关键字手册"
+								   onclick="push_runoob_search(12983)">
+									菜鸟<em>教程</em>关键字手册								</a>
+								<i class="fa fa-external-link"></i>
+							</h2>
+							<p>
+								python、py Python 教程 ios iOS 教程 	swift 	Swift 教程 json JSON 教程 jquery、jq jQuery 教程 jQuery UI 教程 rss RSS 教程 xml XML 教程 mongo MongoDB 教程 正则、regex 正则表达式教程 easyui jQuery Eas...							</p>
+						</div>
+					</div>
+										<div class="archive-list-item">
+						<div class="post-intro" style="width: 100%">
+							<h2>
+								<a target="_blank" href="http://www.runoob.com/ml/ml-python.html" rel="bookmark"
+								   title="&lt;em&gt;Python&lt;/em&gt; 入门机器学习"
+								   onclick="push_runoob_search(26741)">
+									<em>Python</em> 入门机器学习								</a>
+								<i class="fa fa-external-link"></i>
+							</h2>
+							<p>
+								Python，可以先学习我们的Python 教程。如果你还不熟悉 Conda，可以先学习我们的 Anaconda 教程。建议按照 Anaconda，用于创建虚拟环境。为什么需要虚拟环境？虚拟环境就像为每个项目准备的独立厨房，避免不同项...							</p>
+						</div>
+					</div>
+										<div class="archive-list-item">
+						<div class="post-intro" style="width: 100%">
+							<h2>
+								<a target="_blank" href="http://www.runoob.com/python3/python-requests.html" rel="bookmark"
+								   title="&lt;em&gt;Python&lt;/em&gt; requests 模块"
+								   onclick="push_runoob_search(24589)">
+									<em>Python</em> requests 模块								</a>
+								<i class="fa fa-external-link"></i>
+							</h2>
+							<p>
+								{'s':'<em>python 教程</em>'}#设置请求头 headers={"User-Agent":"Mozilla/5.0(Windows NT 10.0;Win64;x64)AppleWebKit/537.36(KHTML,like Gecko)Chrome/54.0.2840.99 Safari/537.36"}#params 接收一个字典或者字符串的查...							</p>
+						</div>
+					</div>
+										<div class="archive-list-item">
+						<div class="post-intro" style="width: 100%">
+							<h2>
+								<a target="_blank" href="http://www.runoob.com/python3/python-openai.html" rel="bookmark"
+								   title="&lt;em&gt;Python&lt;/em&gt; OpenAI"
+								   onclick="push_runoob_search(28751)">
+									<em>Python</em> OpenAI								</a>
+								<i class="fa fa-external-link"></i>
+							</h2>
+							<p>
+								Python OpenAI openai 是一个强大的 Python 库，用于与 OpenAI 的一系列模型和服务进行交互。openai 封装了所有 RESTful API 调用，让开发者能轻松地在自己的 Python 应用中集成强大的 AI 能力，例如自然语言处理...							</p>
+						</div>
+					</div>
+										<div class="archive-list-item">
+						<div class="post-intro" style="width: 100%">
+							<h2>
+								<a target="_blank" href="http://www.runoob.com/pillow/pillow-tutorial.html" rel="bookmark"
+								   title="Pillow &lt;em&gt;教程&lt;/em&gt;"
+								   onclick="push_runoob_search(28179)">
+									Pillow <em>教程</em>								</a>
+								<i class="fa fa-external-link"></i>
+							</h2>
+							<p>
+								Python，可以先学习Python 教程。主要特点 支持多种图像格式（JPEG,PNG,GIF,BMP,TIFF 等） 基本的图像处理操作（旋转、缩放、裁剪等） 图像过滤和增强 支持图像绘制 颜色空间转换 与其他库的比较 相比 OpenCV：Pi...							</p>
+						</div>
+					</div>
+												</div>
+
+			<!-- 分页 -->
+						<div class="article">
+				<div class="archive-list-item">
+					<div id="wp_page_numbers">
+						<ul><li><span>1</span></li><li><a href='/?s=Python%20%E6%95%99%E7%A8%8B&amp;page=2'>2</a></li><li><a href='/?s=Python%20%E6%95%99%E7%A8%8B&amp;page=3'>3</a></li><li><a href='/?s=Python%20%E6%95%99%E7%A8%8B&amp;page=4'>4</a></li><li><a href='/?s=Python%20%E6%95%99%E7%A8%8B&amp;page=5'>5</a></li><li><a href='/?s=Python%20%E6%95%99%E7%A8%8B&amp;page=6'>6</a></li><li><a href='/?s=Python%20%E6%95%99%E7%A8%8B&amp;page=7'>7</a></li><li><a href='/?s=Python%20%E6%95%99%E7%A8%8B&amp;page=8'>8</a></li><li><a href='/?s=Python%20%E6%95%99%E7%A8%8B&amp;page=9'>9</a></li><li><a href='/?s=Python%20%E6%95%99%E7%A8%8B&amp;page=10'>10</a></li><li><a href='/?s=Python%20%E6%95%99%E7%A8%8B&amp;page=2' class="btn_page"><label>下一页</label><b>&gt;</b></a></li></ul>
+						<div style="float:none;clear:both;"></div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<!-- ===== 右侧边栏 ===== -->
+		<div class="listcol last right-column">
+			<input type="hidden" id="token" name="token" value="dadefd4c8adfb0e7d2221d31e1639f0c">
+
+			<!-- 热门搜索 -->
+			<div class="sidebar-box cate-list">
+				<div class="sidebar-box recommend-here list-link">
+					<a href="javascript:void(0);" style="font-size:16px;color:#64854c;font-weight:bold;">
+						<i class="fa fa-hashtag" aria-hidden="true"></i> 热门搜索
+					</a>
+				</div>
+				<div class="cate-items" id="hot-search-items"></div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<script>
+/* =====================
+   自动补全（挂 body，fixed 定位，不受父级 overflow 影响）
+   ===================== */
+function autocomplete(inp, arr) {
+	let currentFocus = -1;
+	let currentList = null;
+
+	function positionList(list) {
+		const rect = inp.getBoundingClientRect();
+		list.style.top    = (rect.bottom + 4) + 'px';
+		list.style.left   = rect.left + 'px';
+		list.style.width  = rect.width + 'px';
+	}
+
+	function openList() {
+		closeAllLists();
+		if (!inp.value) return;
+		currentFocus = -1;
+
+		const a = document.createElement("DIV");
+		a.setAttribute("id", inp.id + "autocomplete-list");
+		a.setAttribute("class", "autocomplete-items");
+		a.style.display = "none";
+
+		arr.forEach(item => {
+			if (item.substr(0, inp.value.length).toUpperCase() === inp.value.toUpperCase()) {
+				const b = document.createElement("DIV");
+				b.innerHTML = `<strong>${item.substr(0, inp.value.length)}</strong>${item.substr(inp.value.length)}<input type='hidden' value='${item}'>`;
+				b.addEventListener("click", function() {
+					inp.value = this.querySelector("input").value;
+					closeAllLists();
+					document.getElementById("runnob-search-form").submit();
+				});
+				a.appendChild(b);
+				a.style.display = "block";
+			}
+		});
+
+		if (a.style.display === "block") {
+			document.body.appendChild(a);
+			positionList(a);
+			currentList = a;
+		}
+	}
+
+	inp.addEventListener("input", openList);
+
+	// 滚动或窗口变化时实时更新位置
+	window.addEventListener("scroll", function() {
+		if (currentList) positionList(currentList);
+	}, true);
+	window.addEventListener("resize", function() {
+		if (currentList) positionList(currentList);
+	});
+
+	inp.addEventListener("keydown", function(e) {
+		const listEl = document.getElementById(inp.id + "autocomplete-list");
+		const items  = listEl ? listEl.querySelectorAll("div") : [];
+		if (e.keyCode === 40) { currentFocus++; addActive(items); }
+		else if (e.keyCode === 38) { currentFocus--; addActive(items); }
+		else if (e.keyCode === 13) {
+			e.preventDefault();
+			if (currentFocus > -1 && items[currentFocus]) items[currentFocus].click();
+			else document.getElementById("runnob-search-form").submit();
+		}
+	});
+
+	function addActive(items) {
+		if (!items.length) return;
+		removeActive(items);
+		if (currentFocus >= items.length) currentFocus = 0;
+		if (currentFocus < 0) currentFocus = items.length - 1;
+		items[currentFocus].classList.add("autocomplete-active");
+	}
+
+	function removeActive(items) {
+		items.forEach(i => i.classList.remove("autocomplete-active"));
+	}
+
+	function closeAllLists(elmnt) {
+		document.querySelectorAll(".autocomplete-items").forEach(el => {
+			if (elmnt !== el && elmnt !== inp) {
+				el.parentNode.removeChild(el);
+				currentList = null;
+			}
+		});
+	}
+
+	document.addEventListener("click", e => closeAllLists(e.target));
+}
+
+/* =====================
+   初始化
+   ===================== */
+const suggestions = [];
+
+$(function() {
+	// 搜索联想
+	$("#runnob-search-input").on("keyup", function() {
+		const q = $(this).val();
+		if (!q) return;
+		$.get(`https://www.runoob.com/wp-content/themes/runoob/option/alisearch/v330/suggest.php?q=${encodeURIComponent(q)}`, function(data) {
+			$.each(data, (i, item) => { suggestions[i] = item.suggestion; });
+		});
+	});
+
+	// 回到顶部
+	$('html, body').animate({ scrollTop: $(".navigation").offset().top }, 200);
+
+	// 热门搜索
+	const userID = readCookie("runoob-uuid") || '';
+	const containSpecial = /[(~!！@#$￥%^……&*(（)）——=\[【\]】{}|、\\\;；:\：'''"""",，。/《》?？]+/;
+
+	$.getJSON(`https://www.runoob.com/wp-content/themes/runoob/option/alisearch/v330/hot_hint.php?user_id=${userID}`, function(data) {
+		let html = '';
+		$.each(data, function(_, val) {
+			if ($.isNumeric(val.hot) || containSpecial.test(val.hot)) return;
+			html += `<a target="_top" href="https://www.runoob.com/?s=${encodeURIComponent(val.hot)}">${val.hot}</a>`;
+		});
+		$("#hot-search-items").html(html);
+	});
+
+	// AI 卡片：折叠 / 关闭
+	$("#aiCollapse").on("click", function() {
+		const $card = $("#responseContainer");
+		const collapsed = $card.toggleClass("collapsed").hasClass("collapsed");
+		$(this).attr("title", collapsed ? "展开" : "折叠");
+	});
+
+	$("#aiClose").on("click", function() {
+		$("#responseContainer").fadeOut(200);
+	});
+
+	/* =====================
+	   AI 请求逻辑
+	   ===================== */
+	const requestToken = $("#token").val();
+	let isStreaming = false;
+	let currentEventSource = null;
+
+	$("#getAI").on("click", function() {
+		if (isStreaming) return;
+
+		const $btn = $(this);
+		const inputText = $("#runnob-search-input").val().trim();
+		if (!inputText) return;
+
+		// 重置状态
+		isStreaming = true;
+		$btn.prop("disabled", true).addClass("loading");
+
+		const $card = $("#responseContainer");
+		const $body = $("#aiResultBody");
+		$card.removeClass("collapsed").show();
+		$body.html(`
+			<div class="ai-loading">
+				<div class="ai-loading-dots"><span></span><span></span><span></span></div>
+				AI 正在思考中...
+			</div>
+		`);
+
+		// 滚动到 AI 结果区
+		$('html, body').animate({ scrollTop: $card.offset().top - 80 }, 300);
+
+		const url = `https://www.jyshare.com/more/ai/stream_app.php?userInput=${encodeURIComponent(inputText)}&token=${requestToken}&ptype=search`;
+		const eventSource = new EventSource(url);
+		currentEventSource = eventSource;
+
+		let accumulatedText = '';
+		let rafPending = false;
+
+		eventSource.addEventListener("message", function(event) {
+			try {
+				const result = JSON.parse(event.data);
+				if (!result.output) return;
+
+				accumulatedText = result.output.text || accumulatedText;
+
+				if (!rafPending) {
+					rafPending = true;
+					requestAnimationFrame(renderContent);
+				}
+
+				if (result.output.finish_reason === 'stop') {
+					closeStream();
+				}
+			} catch (e) {
+				closeStream(true);
+			}
+		});
+
+		eventSource.addEventListener("error", function() {
+			closeStream(true);
+		});
+
+		// 超时保护
+		const timeout = setTimeout(() => closeStream(), 30000);
+
+		function renderContent() {
+			if (!accumulatedText) { rafPending = false; return; }
+			// 用 marked 解析 Markdown，去掉多余 id 属性
+			const html = marked.parse(accumulatedText).replace(/id="[^"]*"/gi, '');
+			$body.html(html);
+			rafPending = false;
+		}
+
+		function closeStream(isError) {
+			clearTimeout(timeout);
+			eventSource.close();
+			currentEventSource = null;
+			isStreaming = false;
+			$btn.prop("disabled", false).removeClass("loading");
+
+			// 最后渲染一次确保内容完整
+			if (accumulatedText) renderContent();
+
+			if (isError && !accumulatedText) {
+				$body.html('<p style="color:#999;font-size:13px;">请求失败，请稍后重试。</p>');
+			}
+		}
+	});
+});
+
+autocomplete(document.getElementById("runnob-search-input"), suggestions);
+
+const rn = "c3c9deaa9fa5df92cff8fec98e94bf65";
+const ops_request_misc = "%7B%22request%5Fid%22%3A%22c3c9deaa9fa5df92cff8fec98e94bf65%22%2C%22scm%22%3A%2220140713.107711..%22%7D";
+</script>
+
+<!-- 底部 -->
+<div id="footer" class="mar-t50">
+   <div class="runoob-block">
+    <div class="runoob cf">
+     <dl>
+      <dt>
+       在线实例
+      </dt>
+      <dd>
+       &middot;<a target="_blank" href="/html/html-examples.html">HTML 实例</a>
+      </dd>
+      <dd>
+       &middot;<a target="_blank" href="/css/css-examples.html">CSS 实例</a>
+      </dd>
+      <dd>
+       &middot;<a target="_blank" href="/js/js-examples.html">JavaScript 实例</a>
+      </dd>
+      <dd>
+       &middot;<a target="_blank" href="/ajx/ajax-examples.html">Ajax 实例</a>
+      </dd>
+       <dd>
+       &middot;<a target="_blank" href="/jquery/jquery-examples.html">jQuery 实例</a>
+      </dd>
+      <dd>
+       &middot;<a target="_blank" href="/xml/xml-examples.html">XML 实例</a>
+      </dd>
+      <dd>
+       &middot;<a target="_blank" href="/java/java-examples.html">Java 实例</a>
+      </dd>
+     
+     </dl>
+     <dl>
+      <dt>
+      字符集&工具
+      </dt>
+      <dd>
+       &middot; <a target="_blank" href="/charsets/html-charsets.html">HTML 字符集设置</a>
+      </dd>
+      <dd>
+       &middot; <a target="_blank" href="/tags/html-ascii.html">HTML ASCII 字符集</a>
+      </dd>
+     <dd>
+       &middot; <a target="_blank" href="https://www.jyshare.com/front-end/6939/">JS 混淆/加密</a>
+      </dd> 
+      <dd>
+       &middot; <a target="_blank" href="https://www.jyshare.com/front-end/6232/">PNG/JPEG 图片压缩</a>
+      </dd>
+      <dd>
+       &middot; <a target="_blank" href="/tags/html-colorpicker.html">HTML 拾色器</a>
+      </dd>
+      <dd>
+       &middot; <a target="_blank" href="https://www.jyshare.com/front-end/53">JSON 格式化工具</a>
+      </dd>
+      <dd>
+       &middot; <a target="_blank" href="https://www.jyshare.com/front-end/6680/">随机数生成器</a>
+      </dd>
+     </dl>
+     <dl>
+      <dt>
+       最新更新
+      </dt>
+                  <dd>
+              &middot;
+              <a href="http://www.runoob.com/w3cnote/terminal-tools.html" title="终端工具推荐">
+                终端工具推荐              </a>
+            </dd>
+                      <dd>
+              &middot;
+              <a href="http://www.runoob.com/ai/llm-intro.html" title="大模型相关概念">
+                大模型相关概念              </a>
+            </dd>
+                      <dd>
+              &middot;
+              <a href="http://www.runoob.com/langchain/langchain-alibailian.html" title="LangChain 集成阿里百炼">
+                LangChain 集成...              </a>
+            </dd>
+                      <dd>
+              &middot;
+              <a href="http://www.runoob.com/pi-agent/pi-agent-deepseek.html" title="Pi Agent 接入 DeepSeek">
+                Pi Agent 接入 D...              </a>
+            </dd>
+                      <dd>
+              &middot;
+              <a href="http://www.runoob.com/codex/codex-deepseek.html" title="Codex 接入 Deepseek 官方配置">
+                Codex 接入 Deep...              </a>
+            </dd>
+                      <dd>
+              &middot;
+              <a href="http://www.runoob.com/computer-organization/instruction-journey-summary.html" title="一条指令的完整旅程">
+                一条指令的完整旅程              </a>
+            </dd>
+                      <dd>
+              &middot;
+              <a href="http://www.runoob.com/computer-organization/io-polling-interrupt-dma.html" title="I/O 的三种方式 &#8212; 轮询、中断、DMA">
+                I/O 的三种方式 ...              </a>
+            </dd>
+               </dl>
+     <dl>
+      <dt>
+       站点信息
+      </dt>
+      <dd>
+       &middot;
+       <a href="mailto:admin@runoob.com" target="_blank" rel="external nofollow" >意见反馈</a>
+       </dd>
+      <dd>
+       &middot;
+      <a target="_blank" href="/disclaimer">免责声明</a>
+       </dd>
+      <dd>
+       &middot;
+       <a target="_blank" href="/aboutus">关于我们</a>
+       </dd>
+       <dd>
+       &middot;
+       <a target="_blank" href="/for-beginner-developers">写给初学者</a>
+       </dd>
+      <dd>
+       &middot; <a target="_blank" href="/archives">文章归档</a>
+      </dd>
+    
+     </dl>
+    
+     <div class="search-share">
+      <div class="app-download">
+        <div>
+         <strong>关注微信</strong>
+        </div>
+      </div>
+      <div class="share">
+      <img width="128" height="128" src="/wp-content/themes/runoob/assets/images/qrcode.png" />
+       </div>
+     </div>
+     
+    </div>
+   </div>
+   <div class="w-1000 copyright">
+     Copyright &copy; 2013-2026    <strong><a href="//www.runoob.com/" target="_blank">菜鸟教程</a></strong>&nbsp;
+    <strong><a href="//www.runoob.com/" target="_blank">runoob.com</a></strong> All Rights Reserved. 备案号：<a target="_blank" rel="nofollow" href="https://beian.miit.gov.cn/">闽ICP备15012807号-1</a>
+   </div>
+  </div>
+  <div class="fixed-btn">
+    <a class="go-top"    href="javascript:void(0)" title="返回顶部">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+    <a class="bm-opener" href="javascript:void(0)" title="收藏与历史">
+      <i class="fa fa-history"></i>
+    </a>
+    <a class="writer"    href="javascript:void(0)" title="标记/收藏" style="display:none">
+      <i class="fa fa-bookmark-o"></i>
+      <span class="bm-badge"></span>
+    </a>
+  </div>
+
+<div style="display:none;">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-84264393-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-84264393-2');
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?3eec0b7da6548cf07db3bc477ea905ee";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+
+<script>
+window.jsui={
+    www: 'https://www.runoob.com',
+    uri: 'https://www.runoob.com/wp-content/themes/runoob'
+};
+</script>
+
+<script src="https://static.char123.com/assets/libs/clipboard.min.js"></script>
+<script src="https://static.char123.com/assets/libs/hl/run_prettify.js?v=1.181"></script>
+<script src="/wp-content/themes/runoob/assets/js/main.min.js?v=1.181"></script>
+<script src="/wp-content/themes/runoob/assets/js/bookmark.js?v=1.181"></script>
+<script src="https://static.char123.com/assets/libs/marked.umd.js"></script>
+</body>
+</html>
